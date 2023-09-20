@@ -14,6 +14,7 @@ body {
     border-radius: 10%;
     margin: 20px;
     box-shadow: 5px 5px rgba(0,0,0,0.5);
+    transition: all .5s;
 }
 .rectangle:hover{
     background-color: rgb(164, 164, 247);
@@ -45,6 +46,13 @@ body {
     border-radius: 10%;
     margin: 20px;
     box-shadow: 5px 5px rgba(0,0,0,0.5);
+    transition: all .5s;
+}
+.flex_item:hover{
+    background-color: rgb(164, 164, 247);
+    border-radius: 50%;
+    transform: scale(1.1);
+    transition: all .5s;
 }
 .inputBox > *{
     margin-top: 10px;
