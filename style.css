@@ -106,6 +106,7 @@ button{
     background-color: green;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .child > p{
     color: black;
