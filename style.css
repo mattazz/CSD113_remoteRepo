@@ -16,6 +16,7 @@ body {
     box-shadow: 5px 5px rgba(0,0,0,0.5);
     transition: all .5s;
 }
+
 .rectangle:hover{
     background-color: rgb(164, 164, 247);
     border-radius: 50%;
