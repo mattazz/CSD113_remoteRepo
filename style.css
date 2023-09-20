@@ -1,0 +1,11 @@
+.rectangle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
+.rectangle:hover{
+    background-color: blue;
+    transform: scale(1.1);
+    transition: all .5s;
+}
