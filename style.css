@@ -61,12 +61,17 @@ body {
     align-items: center;
 }
 .flexL{
+    display: flex;
     padding: 20px;
     width: 100%;
     height: 300px;
     background-color: red;
+
+    justify-content: center;
+    align-items: center;
 }
 .flexR{
+    display: flex;
     padding: 20px;
     width: 100%;
     height: 300px;
@@ -83,4 +88,29 @@ button{
     margin-top: 10px;
     text-align: center;
     margin-left: 30px;
+}
+
+.parent{
+    display: flex;
+    height: 200px;
+
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    display: flex;
+
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
+.child > p{
+    color: black;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
 }
