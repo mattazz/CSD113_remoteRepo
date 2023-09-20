@@ -29,3 +29,31 @@ body {
 .rect_container{
     text-align: center;
 }
+
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.flex_item{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(251, 214, 189);
+    display: inline-block;
+    border-radius: 10%;
+    margin: 20px;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+.inputBox > *{
+    margin-top: 10px;
+    display: inline;
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
